@@ -2,8 +2,8 @@
 local player = game.Players. LocalPlayer
 
 
-local banDuration = 99999
-local reason = "Xin Lỗi Mọi Người Nhé Tụi Mình Đang fix nên mọi Người cứ đợi | mọi người có thể vào sv discord để xem" 
+local banDuration = Chờ Đơi Là Hạnh Phúc
+local reason = " Api Down Nha ae để tụi cố Gắng mở lại | mọi người có thể vào sv discord và xài script khác bên mik nhé" 
 
 local message = string.format("You were kicked from this experience: \nYou are banned for [%d hours]\nReason: %s\nFuture bans will be PERMANENT. Do not break the rules.",
 banDuration,

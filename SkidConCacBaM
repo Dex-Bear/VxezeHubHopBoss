@@ -1,10 +1,7 @@
-local player = game.Players. LocalPlayer
-
-local banDuration = 99999
-local reason = "Đợi COMBACK | Bj Đánh Sập rồi nên có thể dùng bản khác" 
-
-local message = string.format("You were kicked from this experience: \nYou are banned for [%d hours]\nReason: %s\nFuture bans will be PERMANENT. Do not break the rules.",
-banDuration,
-reason
-)
-player: Kick(message)
+if getgenv().Hop == "Dough King" then
+    getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/VxezeHubHopDough.txt"))()
+elseif getgenv().Hop == "Rip Indra" then
+    getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/VxezeHubHopRip"))()
+end

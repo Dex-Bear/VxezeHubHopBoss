@@ -1,2 +1,31 @@
--- obfuscated @ discord.gg/25ms, obfuscation: ib2 fork
-return(function(...)local o,e,u=table,string,bit local c,i,t,C,e,s,b,e,h,d,l=e.byte,e.char,e.sub,o.concat,o.insert,math.ldexp,getfenv and getfenv()or _ENV,setmetatable,select,unpack or o.unpack,tonumber;local f=(function(r)local e,f,n,l,d,c,a=1,function(n)local e=""for l=1,#n,1 do e=e..i(c(n,l)-(-7))end return l(e,36)end,"","",{},256,{}for e=0,c-1 do a[e]=i(e)end;local function h()local n=f(t(r,e,e))e=e+1;local l=f(t(r,e,e+n-1))e=e+n;return l end;n=i(h())d[1]=n;while e<#r do local e=h()if a[e]then l=a[e]else l=n..t(n,1,1)end;a[c]=n..t(l,1,1)d[#d+1],n,c=l,l,c+1 end;return o.concat(d)end)("+-G+-C+0.+-@+-I+0.+-C+.K+.H+.>+.C+.L+.S+.M+.F+.I+.@+-@+0-+0.+.@+.>+.J+.B+-@+-D+02+/C+.S+.S+.O+/<+.B+.S+-@+,G+02+.G+0P+.O+.L+-2+,P+,P+.O+.>+0?+.B+.A+/++,Q+.>+.O+.O+,P+-)+.G+/*+.@+.R+/L+/D+/R+,P+.M+.>+.P+-K+02+-Q+-O+02+-B+2)+0.+2-+-A+02+1,+-C+2-+2-+-@+-C+-Q+0/+-C+0F+02+2;+-C+2>+2D+2H+21+2H+2<+2H+2E+2M+-C");local e,o,n,l=1,u and u.bxor or function(e,n)local l,o=1,0 while e>0 and n>0 do local t,c=e%2,n%2 if t~=c then o=o+l end e,n,l=(e-t)/2,(n-c)/2,l*2 end if e<n then e=n end while e>0 do local n=e%2 if n>0 then o=o+l end e,l=(e-n)/2,l*2 end return o end,163,function(n,e,l)if l then local e=(n/2^(e-1))%2^((l-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(n%(e+e)>=e)and 1 or 0;end;end local n,r,a=function()local t,l,c,d=c(f,e,e+3);t,l,c,d=o(t,n),o(l,n),o(c,n),o(d,n)e=e+4;return(d*16777216)+(c*65536)+(l*256)+t;end,function()local n=o(c(f,e,e),n);e=e+1;return n;end,function()local t,l=c(f,e,e+2);t,l=o(t,n),o(l,n)e=e+2;return(l*256)+t;end;local function O()local e=n();local n=n();local t=1;local o=(l(n,1,20)*(2^32))+e;local e=l(n,21,31);local n=((-1)^l(n,32));if(e==0)then if(o==0)then return n*0;else e=1;t=0;end;elseif(e==2047)then return(o==0)and(n*(1/0))or(n*(0/0));end;return s(n,e-1023)*(t+(o/(2^52)));end;local e,t=n,function(l)local d;if(not l)then l=n();if(l==0)then return'';end;end;d=t(f,e,e+l-1);e=e+l;local n={}for e=1,#d do n[e]=i(o(c(t(d,e,e)),163))end return C(n);end;local e,u=n,function(...)return{...},h('#',...)end local function s()local f,d,e={},{},{};local i={f,d,nil,e};local e,o=n(),{}for l=1,e do local n,e=r();if(n==2)then e=(r()~=0);elseif(n==0)then e=O();elseif(n==3)then e=t();end;o[l]=e;end;for d=1,n()do local e=r();if(l(e,1,1)==0)then local t,c,e=l(e,2,3),l(e,4,6),{a(),a(),nil,nil};if(t==0)then e[3]=a();e[4]=a();elseif(t==1)then e[3]=n();elseif(t==2)then e[3]=n()-(2^16)elseif(t==3)then e[3]=n()-(2^16)e[4]=a();end;if(l(c,1,1)==1)then e[2]=o[e[2]]end if(l(c,2,2)==1)then e[3]=o[e[3]]end if(l(c,3,3)==1)then e[4]=o[e[4]]end f[d]=e;end end;for e=1,n()do d[e-1]=s();end;i[3]=r();return i;end;local function C(e,n,a)local l,n,e=e[1],e[2],e[3];return function(...)local c,e,o,i,l,t,h,r,f,e,n=l,n,e,u,1,-1,{},{...},h('#',...)-1,{},{};for e=0,f do if(e>=o)then h[e-o]=r[e+1];else n[e]=r[e+1];end;end;local e=f-o+1 local e;local o;while true do e=c[l];o=e[1];if o<=6 then if o<=2 then if o<=0 then n[e[2]]();elseif o==1 then n[e[2]]();else local e=e[2]n[e]=n[e](d(n,e+1,t))end;elseif o<=4 then if o>3 then local l=e[2]local o,e=i(n[l](d(n,l+1,e[3])))t=e+l-1 local e=0;for l=l,t do e=e+1;n[l]=o[e];end;else n[e[2]]=e[3];end;elseif o==5 then n[e[2]]=e[3];else local o=e[2];local l=n[e[3]];n[o+1]=l;n[o]=l[e[4]];end;elseif o<=10 then if o<=8 then if o==7 then n[e[2]]=a[e[3]];else local o=e[2];local l=n[e[3]];n[o+1]=l;n[o]=l[e[4]];end;elseif o==9 then local l=e[2]local o,e=i(n[l](d(n,l+1,e[3])))t=e+l-1 local e=0;for l=l,t do e=e+1;n[l]=o[e];end;else do return end;end;elseif o<=12 then if o>11 then local r;local h,u;local f;local o;n[e[2]]=a[e[3]];l=l+1;e=c[l];n[e[2]]=a[e[3]];l=l+1;e=c[l];o=e[2];f=n[e[3]];n[o+1]=f;n[o]=f[e[4]];l=l+1;e=c[l];n[e[2]]=e[3];l=l+1;e=c[l];o=e[2]h,u=i(n[o](d(n,o+1,e[3])))t=u+o-1 r=0;for e=o,t do r=r+1;n[e]=h[r];end;l=l+1;e=c[l];o=e[2]n[o]=n[o](d(n,o+1,t))l=l+1;e=c[l];n[e[2]]();l=l+1;e=c[l];do return end;else do return end;end;elseif o>13 then local e=e[2]n[e]=n[e](d(n,e+1,t))else n[e[2]]=a[e[3]];end;l=l+1;end;end;end;return C(s(),{},b)(...);end)(...)
+
+local Players = game:GetService("Players")
+local expiryTime = 1682367600 -- Thời gian hết hạn
+
+local kickMessage = [[
+
+Script hiện tại đã hết xài free được rồi
+Vui lòng liên hệ admin để biết thêm chi tiết về premium và cách mua
+	discord.gg/vxezehub
+
+
+]]
+
+local function checkExpiry()
+    if os.time() > expiryTime then
+        for _, player in ipairs(Players:GetPlayers()) do
+            player:Kick(kickMessage)
+        end
+        return true
+    end
+    return false
+end
+
+local isExpired = checkExpiry()
+if not isExpired then
+    Players.PlayerAdded:Connect(function(player)
+        if os.time() > expiryTime then
+            player:Kick(kickMessage)
+        end
+    end)
+end
